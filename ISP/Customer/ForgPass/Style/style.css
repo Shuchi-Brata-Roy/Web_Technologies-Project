@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 7px;
+    
+}
+div.header h1{
+      padding: 18px;
+       background-color: #4CAF50;
+       color: black;
+       border-left: 10px solid red ;
+       border-right: 10px solid red;
+       font-family: "Times New Roman", Times, serif;
+   }
+body{
+    background-image: url("https://drive.google.com/drive/folders/1n22aIcOT2pdWCZX3vvotQWZB9updOSLm?fbclid=IwAR3Mqtg58gFNCfsQ-KTTe22NjRPlGB7hYOCsbAu-HD3QbYpaYfuMLRHYee4");
+    background-color: lightblue;
+    width: 100%;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+.change{
+    background-color: skyblue;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+}
+div.forms{
+    background-color: #a23cd1d0;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+}
+
+.button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    position: center;
+  }
+  .button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: rgb(240, 33, 33);
+    transform: scale(1.10);
+  }
+  a{
+    text-decoration: none;
+    color: rgb(0, 4, 255);
+  }
+  #newpass{
+    width: 53%;
+    color: black;
+  }
+  p,h1,h2{
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    color: black  ;
+  }
+  div.head h3{
+    padding: 18px;
+       background-color: #47ece4;
+       color: black;
+       border-left: 30px solid rgba(255, 217, 0) ;
+       border-right: 30px solid rgb(255, 217, 0);
+       font-family: "Trebuchet MS", Times, serif;
+        text-align: center;
+        font-size: xx-large;
+  }
+  div.Box {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  .sub {
+    height: 100px;
+    position: relative;
+    border: 3px solid white;
+}
+.center{
+    margin: 0;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
